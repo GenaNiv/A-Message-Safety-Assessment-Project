@@ -4,13 +4,11 @@
  *  Created on: May 26, 2015
  *      Author: gena
  */
-
 #ifndef MSGADMIN_H_
 #define MSGADMIN_H_
 #include "Msg.h"
 #include<string>
 namespace std {
-
 
 //Linked list data struct Node type
 struct Node
@@ -43,7 +41,6 @@ private:
 	Node* PtrNode;
 	static int NoMsg;
 protected:
-
 
 };//end class
 
