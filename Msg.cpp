@@ -13,7 +13,7 @@ namespace std {
 //initialize constructor
 Msg::Msg(const string& message , double safatyfactor):bodyText(message), SafeFactor(safatyfactor) {}
 //destructor
-Msg::~Msg() { /*cout << " \nBase class destrucotr called..." << endl;*/}
+Msg::~Msg() { /*cout << " \nBase class destructor called..." << endl;*/}
 //setters
 void Msg::SetBodyText(string& Message){ bodyText = Message;}
 void Msg::SetSafeFactor(double sfFactor){ SafeFactor = sfFactor;}
